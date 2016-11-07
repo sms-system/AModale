@@ -1,4 +1,5 @@
 # AModale
+https://sms-system.github.io/AModale/demo <br>
 плагин для максимально удобных и доступных (A11Y) модальных окон
 
 ## Особенности
