@@ -76,7 +76,7 @@
 	}
 	function hasTransition(el) {
 		// Detect if transition isset
-		var transitionTimes = getComputedStyle(el)[transitionAttribute].match(/[0-9.]+/g)
+		var transitionTimes = (getComputedStyle(el)[transitionAttribute]||'').match(/[0-9.]+/g)||[]
 		var transitionTimeSum = 0
 		transitionTimes.forEach(function(time){
 			transitionTimeSum += time*1
